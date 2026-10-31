@@ -1,0 +1,112 @@
+{
+  "about": "The simple vocabulary: 56 words on 5 boards. Each word keeps its slot (6 columns on landscape screens, 4 on upright phones and tablets), so the child learns where it is. Core words come from AAC core-vocabulary practice (e.g. Project Core's universal core) plus the urgent needs: toilet, pain, water. Parents can change any slot in Settings. Topic boards have 12 slots: 8 words and 4 empty places for the family's own words.",
+  "boards": [
+    {
+      "id": "main",
+      "label": "негизги",
+      "icon": "core",
+      "slots": [
+        "me",
+        "you",
+        "want",
+        "give",
+        "more",
+        "finished",
+        "yes",
+        "no",
+        "help",
+        "stop",
+        "like",
+        "dislike",
+        "go",
+        "open",
+        "this",
+        "what",
+        "where",
+        "play-verb",
+        "eat",
+        "drink",
+        "go-toilet",
+        "hurts-somewhere",
+        "mom",
+        "water"
+      ]
+    },
+    {
+      "id": "food",
+      "label": "тамак-аш",
+      "icon": "food",
+      "slots": [
+        "meal",
+        "bread",
+        "milk",
+        "juice",
+        "apple",
+        "banana",
+        "cookie",
+        "ice-cream",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "feelings",
+      "label": "сезимдер",
+      "icon": "feelings",
+      "slots": [
+        "happy",
+        "sad",
+        "angry",
+        "scared",
+        "tired",
+        "sleepy",
+        "head",
+        "tummy",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "play",
+      "label": "оюн",
+      "icon": "play",
+      "slots": [
+        "ball",
+        "toy",
+        "cartoon",
+        "book",
+        "music",
+        "draw",
+        "phone",
+        "outside",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "people",
+      "label": "адамдар",
+      "icon": "people",
+      "slots": [
+        "dad",
+        "grandma",
+        "grandpa",
+        "brother",
+        "sister",
+        "baby",
+        "teacher",
+        "friend",
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

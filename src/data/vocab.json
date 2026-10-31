@@ -1,0 +1,2475 @@
+{
+  "categories": [
+    {
+      "id": "core",
+      "label": "негизги",
+      "icon": "Speech balloon",
+      "cards": [
+        {
+          "id": "me",
+          "label": "мен",
+          "type": "pronoun",
+          "img": "Child",
+          "tone": true,
+          "role": "me",
+          "pers": "1s",
+          "forms": {
+            "gen": "менин",
+            "dat": "мага",
+            "acc": "мени",
+            "com": "мени менен",
+            "abl": "менден"
+          }
+        },
+        {
+          "id": "you",
+          "label": "сен",
+          "type": "pronoun",
+          "img": "Index pointing at the viewer",
+          "tone": true,
+          "pers": "2s",
+          "forms": {
+            "poss": "сен",
+            "possDat": "сага",
+            "possAcc": "сени",
+            "possCom": "сени менен",
+            "gen": "сенин",
+            "dat": "сага",
+            "acc": "сени",
+            "com": "сени менен",
+            "abl": "сенден"
+          }
+        },
+        {
+          "id": "he",
+          "label": "ал",
+          "type": "pronoun",
+          "img": "Person",
+          "tone": true,
+          "pers": "3s",
+          "forms": {
+            "poss": "ал",
+            "possDat": "ага",
+            "possAcc": "аны",
+            "possCom": "аны менен",
+            "gen": "анын",
+            "dat": "ага",
+            "acc": "аны",
+            "com": "аны менен",
+            "abl": "андан"
+          }
+        },
+        {
+          "id": "we",
+          "label": "биз",
+          "type": "pronoun",
+          "img": "People hugging",
+          "pers": "1p",
+          "forms": {
+            "possDat": "бизге",
+            "possAcc": "бизди",
+            "possCom": "биз менен",
+            "gen": "биздин",
+            "dat": "бизге",
+            "acc": "бизди",
+            "com": "биз менен",
+            "abl": "бизден"
+          }
+        },
+        {
+          "id": "they",
+          "label": "алар",
+          "type": "pronoun",
+          "img": "Busts in silhouette",
+          "pers": "3p",
+          "forms": {
+            "poss": "алар",
+            "possDat": "аларга",
+            "possAcc": "аларды",
+            "possCom": "алар менен",
+            "gen": "алардын",
+            "dat": "аларга",
+            "acc": "аларды",
+            "com": "алар менен",
+            "abl": "алардан"
+          }
+        },
+        {
+          "id": "want",
+          "label": "каалайм",
+          "type": "verb",
+          "img": "Palms up together",
+          "tone": true,
+          "takes": "want",
+          "obj": "something",
+          "person": "acc",
+          "forms": {
+            "p2s": "каалайсың",
+            "p3s": "каалайт",
+            "p1p": "каалайбыз",
+            "p3p": "каалайт"
+          }
+        },
+        {
+          "id": "give",
+          "label": "бер",
+          "type": "verb",
+          "img": "Palm up hand",
+          "tone": true,
+          "subject": "dat",
+          "takes": "thing",
+          "obj": "something",
+          "stem": "бер",
+          "forms": {
+            "want": "бергим келип жатат",
+            "doing": "берип жатам",
+            "did": "бердим",
+            "lets": "берели",
+            "dont": "бербе",
+            "please": "берчи"
+          }
+        },
+        {
+          "id": "need",
+          "label": "керек",
+          "type": "verb",
+          "img": "Red exclamation mark",
+          "subject": "dat",
+          "takes": "about",
+          "obj": "something",
+          "person": "poss",
+          "forms": {
+            "you": "керексиң"
+          }
+        },
+        {
+          "id": "something",
+          "label": "бир нерсе",
+          "type": "noun",
+          "img": "Package",
+          "kind": "some",
+          "forms": {
+            "obj": "бир нерсени",
+            "acc": "бир нерсени"
+          }
+        },
+        {
+          "id": "yes",
+          "label": "ооба",
+          "type": "social",
+          "img": "Check mark button"
+        },
+        {
+          "id": "no",
+          "label": "жок",
+          "type": "negation",
+          "img": "Cross mark"
+        },
+        {
+          "id": "more",
+          "label": "дагы",
+          "type": "describe",
+          "img": "Plus",
+          "role": "flex"
+        },
+        {
+          "id": "help",
+          "label": "жардам бер",
+          "type": "verb",
+          "img": "Person raising hand",
+          "tone": true,
+          "subject": "dat",
+          "stem": "жардам бер",
+          "forms": {
+            "want": "жардам бергим келип жатат",
+            "doing": "жардам берип жатам",
+            "did": "жардам бердим",
+            "lets": "жардам берели",
+            "dont": "жардам бербе",
+            "please": "жардам берчи"
+          }
+        },
+        {
+          "id": "finished",
+          "label": "бүттү",
+          "type": "social",
+          "img": "Raising hands",
+          "tone": true
+        },
+        {
+          "id": "stop",
+          "label": "токто",
+          "type": "negation",
+          "img": "Stop sign"
+        },
+        {
+          "id": "like",
+          "label": "жагат",
+          "type": "verb",
+          "img": "Thumbs up",
+          "tone": true,
+          "subject": "dat",
+          "takes": "about",
+          "person": "poss",
+          "personAlt": "love"
+        },
+        {
+          "id": "dislike",
+          "label": "жакпайт",
+          "type": "negation",
+          "img": "Thumbs down",
+          "tone": true,
+          "subject": "dat",
+          "takes": "about",
+          "person": "poss",
+          "forms": {
+            "you": "жакпайсың"
+          }
+        },
+        {
+          "id": "hello",
+          "label": "салам",
+          "type": "social",
+          "img": "Waving hand",
+          "tone": true
+        },
+        {
+          "id": "thanks",
+          "label": "рахмат",
+          "type": "social",
+          "img": "Folded hands",
+          "tone": true
+        },
+        {
+          "id": "where",
+          "label": "кайда",
+          "type": "social",
+          "img": "Round pushpin",
+          "role": "question"
+        },
+        {
+          "id": "what",
+          "label": "эмне",
+          "type": "social",
+          "img": "Red question mark",
+          "role": "question"
+        },
+        {
+          "id": "open",
+          "label": "ач",
+          "type": "verb",
+          "img": "Unlocked",
+          "takes": "open",
+          "subject": "dat",
+          "stem": "ач"
+        },
+        {
+          "id": "this",
+          "label": "бул",
+          "type": "noun",
+          "img": "Backhand index pointing down",
+          "kind": "some",
+          "forms": {
+            "obj": "муну",
+            "acc": "муну",
+            "dat": "буга"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "тамак-аш",
+      "icon": "Bread",
+      "cards": [
+        {
+          "id": "eat",
+          "label": "жегим келип жатат",
+          "type": "verb",
+          "img": "Fork and knife with plate",
+          "takes": "eat",
+          "base": "n-je",
+          "forms": {
+            "p2s": "жегиң келип жатат",
+            "p3s": "жегиси келип жатат",
+            "p1p": "жегибиз келип жатат",
+            "p3p": "жегиси келип жатат"
+          }
+        },
+        {
+          "id": "drink",
+          "label": "ичким келип жатат",
+          "type": "verb",
+          "img": "Cup with straw",
+          "takes": "drink",
+          "base": "n-ich",
+          "forms": {
+            "p2s": "ичкиң келип жатат",
+            "p3s": "ичкиси келип жатат",
+            "p1p": "ичкибиз келип жатат",
+            "p3p": "ичкиси келип жатат"
+          }
+        },
+        {
+          "id": "n-je",
+          "label": "жеш",
+          "type": "verb",
+          "img": "Fork and knife with plate",
+          "use": "eat",
+          "stem": "же",
+          "kind": "activity",
+          "forms": {
+            "want": "жегим келип жатат",
+            "doing": "жеп жатам",
+            "did": "жедим",
+            "lets": "жейли",
+            "dont": "жебе",
+            "please": "жечи"
+          }
+        },
+        {
+          "id": "n-ich",
+          "label": "ичүү",
+          "type": "verb",
+          "img": "Cup with straw",
+          "use": "drink",
+          "stem": "ич",
+          "kind": "activity",
+          "forms": {
+            "want": "ичким келип жатат",
+            "doing": "ичип жатам",
+            "did": "ичтим",
+            "lets": "ичели",
+            "dont": "ичпе",
+            "please": "иччи"
+          }
+        },
+        {
+          "id": "meal",
+          "label": "тамак",
+          "type": "noun",
+          "img": "Pot of food",
+          "consume": "eat"
+        },
+        {
+          "id": "water",
+          "label": "суу",
+          "type": "noun",
+          "img": "Droplet",
+          "consume": "drink"
+        },
+        {
+          "id": "bread",
+          "label": "нан",
+          "type": "noun",
+          "img": "Bread",
+          "consume": "eat"
+        },
+        {
+          "id": "milk",
+          "label": "сүт",
+          "type": "noun",
+          "img": "Glass of milk",
+          "consume": "drink"
+        },
+        {
+          "id": "tea",
+          "label": "чай",
+          "type": "noun",
+          "img": "Teacup without handle",
+          "consume": "drink"
+        },
+        {
+          "id": "juice",
+          "label": "шире",
+          "type": "noun",
+          "img": "Beverage box",
+          "consume": "drink"
+        },
+        {
+          "id": "soup",
+          "label": "шорпо",
+          "type": "noun",
+          "img": "Pot of food",
+          "consume": "drink"
+        },
+        {
+          "id": "plov",
+          "label": "палоо",
+          "type": "noun",
+          "img": "Shallow pan of food",
+          "consume": "eat"
+        },
+        {
+          "id": "meat",
+          "label": "эт",
+          "type": "noun",
+          "img": "Cut of meat",
+          "consume": "eat"
+        },
+        {
+          "id": "egg",
+          "label": "жумуртка",
+          "type": "noun",
+          "img": "Egg",
+          "consume": "eat"
+        },
+        {
+          "id": "porridge",
+          "label": "ботко",
+          "type": "noun",
+          "img": "Bowl with spoon",
+          "consume": "eat"
+        },
+        {
+          "id": "cookie",
+          "label": "печенье",
+          "type": "noun",
+          "img": "Cookie",
+          "say": "печение",
+          "consume": "eat"
+        },
+        {
+          "id": "candy",
+          "label": "момпосуй",
+          "type": "noun",
+          "img": "Candy",
+          "consume": "eat"
+        },
+        {
+          "id": "manty",
+          "label": "манты",
+          "type": "noun",
+          "img": "Dumpling",
+          "consume": "eat"
+        },
+        {
+          "id": "lagman",
+          "label": "лагман",
+          "type": "noun",
+          "img": "Steaming bowl",
+          "consume": "eat"
+        },
+        {
+          "id": "ice-cream",
+          "label": "балмуздак",
+          "type": "noun",
+          "img": "Soft ice cream",
+          "consume": "eat"
+        },
+        {
+          "id": "chocolate",
+          "label": "шоколад",
+          "type": "noun",
+          "img": "Chocolate bar",
+          "consume": "eat"
+        },
+        {
+          "id": "cake",
+          "label": "торт",
+          "type": "noun",
+          "img": "Shortcake",
+          "consume": "eat"
+        }
+      ]
+    },
+    {
+      "id": "fruits",
+      "label": "жемиш-жашылча",
+      "icon": "Grapes",
+      "cards": [
+        {
+          "id": "fruit",
+          "label": "жемиш",
+          "type": "noun",
+          "img": "Basket",
+          "consume": "eat"
+        },
+        {
+          "id": "vegetable",
+          "label": "жашылча",
+          "type": "noun",
+          "img": "Leafy green",
+          "consume": "eat"
+        },
+        {
+          "id": "apple",
+          "label": "алма",
+          "type": "noun",
+          "img": "Red apple",
+          "consume": "eat"
+        },
+        {
+          "id": "banana",
+          "label": "банан",
+          "type": "noun",
+          "img": "Banana",
+          "consume": "eat"
+        },
+        {
+          "id": "grapes",
+          "label": "жүзүм",
+          "type": "noun",
+          "img": "Grapes",
+          "consume": "eat"
+        },
+        {
+          "id": "watermelon",
+          "label": "дарбыз",
+          "type": "noun",
+          "img": "Watermelon",
+          "consume": "eat"
+        },
+        {
+          "id": "pear",
+          "label": "алмурут",
+          "type": "noun",
+          "img": "Pear",
+          "consume": "eat"
+        },
+        {
+          "id": "potato",
+          "label": "картошка",
+          "type": "noun",
+          "img": "Potato",
+          "consume": "eat"
+        },
+        {
+          "id": "carrot",
+          "label": "сабиз",
+          "type": "noun",
+          "img": "Carrot",
+          "consume": "eat"
+        },
+        {
+          "id": "tomato",
+          "label": "помидор",
+          "type": "noun",
+          "img": "Tomato",
+          "consume": "eat"
+        },
+        {
+          "id": "cucumber",
+          "label": "бадыраң",
+          "type": "noun",
+          "img": "Cucumber",
+          "consume": "eat"
+        }
+      ]
+    },
+    {
+      "id": "toilet",
+      "label": "ажаткана",
+      "icon": "Toilet",
+      "cards": [
+        {
+          "id": "go-toilet",
+          "label": "ажатканага баргым келип жатат",
+          "type": "phrase",
+          "img": "Toilet",
+          "frame": "none",
+          "forms": {
+            "p2s": "ажатканага баргың келип жатат",
+            "p3s": "ажатканага баргысы келип жатат",
+            "p1p": "ажатканага баргыбыз келип жатат",
+            "p3p": "ажатканага баргысы келип жатат"
+          }
+        },
+        {
+          "id": "wash-hands",
+          "label": "колумду жуугум келип жатат",
+          "type": "verb",
+          "img": "Soap",
+          "base": "n-kol-juu",
+          "owner": "кол",
+          "forms": {
+            "p2s": "колуңду жуугуң келип жатат",
+            "p3s": "колун жуугусу келип жатат",
+            "p1p": "колубузду жуугубуз келип жатат",
+            "p3p": "колун жуугусу келип жатат"
+          }
+        },
+        {
+          "id": "n-kol-juu",
+          "label": "кол жуу",
+          "type": "verb",
+          "img": "Soap",
+          "use": "wash-hands",
+          "stem": "кол жуу",
+          "kind": "activity",
+          "forms": {
+            "want": "кол жуугум келип жатат",
+            "doing": "кол жууп жатам",
+            "did": "кол жуудум",
+            "lets": "кол жуулу",
+            "dont": "кол жууба",
+            "please": "кол жуучу"
+          }
+        },
+        {
+          "id": "brush-teeth",
+          "label": "тишимди тазалагым келип жатат",
+          "type": "verb",
+          "img": "Toothbrush",
+          "base": "n-tish-tazala",
+          "owner": "тиш",
+          "forms": {
+            "p2s": "тишиңди тазалагың келип жатат",
+            "p3s": "тишин тазалагысы келип жатат",
+            "p1p": "тишибизди тазалагыбыз келип жатат",
+            "p3p": "тишин тазалагысы келип жатат"
+          }
+        },
+        {
+          "id": "n-tish-tazala",
+          "label": "тиш тазалоо",
+          "type": "verb",
+          "img": "Toothbrush",
+          "use": "brush-teeth",
+          "stem": "тиш тазала",
+          "kind": "activity",
+          "forms": {
+            "want": "тиш тазалагым келип жатат",
+            "doing": "тиш тазалап жатам",
+            "did": "тиш тазаладым",
+            "lets": "тиш тазалайлы",
+            "dont": "тиш тазалаба",
+            "please": "тиш тазалачы"
+          }
+        },
+        {
+          "id": "bath",
+          "label": "жуунгум келип жатат",
+          "type": "verb",
+          "img": "Bathtub",
+          "base": "n-juun",
+          "forms": {
+            "p2s": "жуунгуң келип жатат",
+            "p3s": "жуунгусу келип жатат",
+            "p1p": "жуунгубуз келип жатат",
+            "p3p": "жуунгусу келип жатат"
+          }
+        },
+        {
+          "id": "n-juun",
+          "label": "жуунуу",
+          "type": "verb",
+          "img": "Bathtub",
+          "use": "bath",
+          "stem": "жуун",
+          "kind": "activity",
+          "forms": {
+            "want": "жуунгум келип жатат",
+            "doing": "жуунуп жатам",
+            "did": "жуундум",
+            "lets": "жууналы",
+            "dont": "жуунба",
+            "please": "жуунчу"
+          }
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "label": "сезимдер",
+      "icon": "Beaming face with smiling eyes",
+      "cards": [
+        {
+          "id": "fine",
+          "label": "жакшымын",
+          "type": "verb",
+          "img": "Slightly smiling face",
+          "forms": {
+            "p2s": "жакшысың",
+            "p3s": "жакшы",
+            "p1p": "жакшыбыз",
+            "p3p": "жакшы"
+          }
+        },
+        {
+          "id": "love",
+          "label": "жакшы көрөм",
+          "type": "verb",
+          "img": "Smiling face with heart-eyes",
+          "who": "you",
+          "person": "acc",
+          "alt": "like",
+          "forms": {
+            "p2s": "жакшы көрөсүң",
+            "p3s": "жакшы көрөт",
+            "p1p": "жакшы көрөбүз",
+            "p3p": "жакшы көрөт"
+          }
+        },
+        {
+          "id": "happy",
+          "label": "кубанычтуумун",
+          "type": "verb",
+          "img": "Beaming face with smiling eyes",
+          "forms": {
+            "p2s": "кубанычтуусуң",
+            "p3s": "кубанычтуу",
+            "p1p": "кубанычтуубуз",
+            "p3p": "кубанычтуу"
+          }
+        },
+        {
+          "id": "sad",
+          "label": "капамын",
+          "type": "verb",
+          "img": "Crying face",
+          "forms": {
+            "p2s": "капасың",
+            "p3s": "капа",
+            "p1p": "капабыз",
+            "p3p": "капа"
+          }
+        },
+        {
+          "id": "angry",
+          "label": "ачуулуумун",
+          "type": "verb",
+          "img": "Angry face",
+          "forms": {
+            "p2s": "ачуулуусуң",
+            "p3s": "ачуулуу",
+            "p1p": "ачуулуубуз",
+            "p3p": "ачуулуу"
+          }
+        },
+        {
+          "id": "scared",
+          "label": "коркуп жатам",
+          "type": "verb",
+          "img": "Fearful face",
+          "base": "n-kork",
+          "forms": {
+            "p2s": "коркуп жатасың",
+            "p3s": "коркуп жатат",
+            "p1p": "коркуп жатабыз",
+            "p3p": "коркуп жатышат"
+          }
+        },
+        {
+          "id": "n-kork",
+          "label": "коркуу",
+          "type": "verb",
+          "img": "Fearful face",
+          "use": "scared",
+          "stem": "корк",
+          "kind": "activity",
+          "forms": {
+            "want": "корккум келип жатат",
+            "doing": "коркуп жатам",
+            "did": "корктум",
+            "lets": "корколу",
+            "dont": "коркпо",
+            "please": "коркчу"
+          }
+        },
+        {
+          "id": "tired",
+          "label": "чарчадым",
+          "type": "verb",
+          "img": "Weary face",
+          "base": "n-charcha",
+          "forms": {
+            "p2s": "чарчадың",
+            "p3s": "чарчады",
+            "p1p": "чарчадык",
+            "p3p": "чарчады"
+          }
+        },
+        {
+          "id": "n-charcha",
+          "label": "чарчоо",
+          "type": "verb",
+          "img": "Weary face",
+          "use": "tired",
+          "stem": "чарча",
+          "kind": "activity",
+          "forms": {
+            "want": "чарчагым келип жатат",
+            "doing": "чарчап жатам",
+            "did": "чарчадым",
+            "lets": "чарчайлы",
+            "dont": "чарчаба",
+            "please": "чарчачы"
+          }
+        },
+        {
+          "id": "sick",
+          "label": "ооруп жатам",
+          "type": "verb",
+          "img": "Face with thermometer",
+          "base": "n-ooru",
+          "forms": {
+            "p2s": "ооруп жатасың",
+            "p3s": "ооруп жатат",
+            "p1p": "ооруп жатабыз",
+            "p3p": "ооруп жатышат"
+          }
+        },
+        {
+          "id": "n-ooru",
+          "label": "ооруу",
+          "type": "verb",
+          "img": "Face with thermometer",
+          "use": "sick",
+          "stem": "оору",
+          "kind": "activity",
+          "forms": {
+            "want": "ооругум келип жатат",
+            "doing": "ооруп жатам",
+            "did": "оорудум",
+            "lets": "ооруйлу",
+            "dont": "ооруба",
+            "please": "ооручу"
+          }
+        },
+        {
+          "id": "hungry",
+          "label": "курсагым ачты",
+          "type": "verb",
+          "img": "Face savoring food",
+          "subject": "gen",
+          "owner": "курсак",
+          "forms": {
+            "p2s": "курсагың ачты",
+            "p3s": "курсагы ачты",
+            "p1p": "курсагыбыз ачты",
+            "p3p": "курсагы ачты"
+          }
+        },
+        {
+          "id": "sleepy",
+          "label": "уйкум келди",
+          "type": "verb",
+          "img": "Sleeping face",
+          "subject": "gen",
+          "owner": "уйку",
+          "forms": {
+            "p2s": "уйкуң келди",
+            "p3s": "уйкусу келди",
+            "p1p": "уйкубуз келди",
+            "p3p": "уйкусу келди"
+          }
+        },
+        {
+          "id": "cold",
+          "label": "үшүп жатам",
+          "type": "verb",
+          "img": "Cold face",
+          "base": "n-ushu",
+          "forms": {
+            "p2s": "үшүп жатасың",
+            "p3s": "үшүп жатат",
+            "p1p": "үшүп жатабыз",
+            "p3p": "үшүп жатышат"
+          }
+        },
+        {
+          "id": "n-ushu",
+          "label": "үшүү",
+          "type": "verb",
+          "img": "Cold face",
+          "use": "cold",
+          "stem": "үшү",
+          "kind": "activity",
+          "forms": {
+            "want": "үшүгүм келип жатат",
+            "doing": "үшүп жатам",
+            "did": "үшүдүм",
+            "lets": "үшүйлү",
+            "dont": "үшүбө",
+            "please": "үшүчү"
+          }
+        },
+        {
+          "id": "hot",
+          "label": "ысып жатам",
+          "type": "verb",
+          "img": "Hot face",
+          "base": "n-ysy",
+          "forms": {
+            "p2s": "ысып жатасың",
+            "p3s": "ысып жатат",
+            "p1p": "ысып жатабыз",
+            "p3p": "ысып жатышат"
+          }
+        },
+        {
+          "id": "n-ysy",
+          "label": "ысуу",
+          "type": "verb",
+          "img": "Hot face",
+          "use": "hot",
+          "stem": "ысы",
+          "kind": "activity",
+          "forms": {
+            "want": "ысыгым келип жатат",
+            "doing": "ысып жатам",
+            "did": "ысыдым",
+            "lets": "ысыйлы",
+            "dont": "ысыба",
+            "please": "ысычы"
+          }
+        },
+        {
+          "id": "n-uyal",
+          "label": "уялуу",
+          "type": "verb",
+          "img": "Flushed face",
+          "auto": "doing",
+          "stem": "уял",
+          "kind": "activity",
+          "forms": {
+            "want": "уялгым келип жатат",
+            "doing": "уялып жатам",
+            "did": "уялдым",
+            "lets": "уялалы",
+            "dont": "уялба",
+            "please": "уялчы"
+          }
+        },
+        {
+          "id": "n-yyla",
+          "label": "ыйлоо",
+          "type": "verb",
+          "img": "Loudly crying face",
+          "auto": "doing",
+          "stem": "ыйла",
+          "kind": "activity",
+          "forms": {
+            "want": "ыйлагым келип жатат",
+            "doing": "ыйлап жатам",
+            "did": "ыйладым",
+            "lets": "ыйлайлы",
+            "dont": "ыйлаба",
+            "please": "ыйлачы"
+          }
+        },
+        {
+          "id": "n-kul",
+          "label": "күлүү",
+          "type": "verb",
+          "img": "Face with tears of joy",
+          "auto": "doing",
+          "stem": "күл",
+          "kind": "activity",
+          "forms": {
+            "want": "күлгүм келип жатат",
+            "doing": "күлүп жатам",
+            "did": "күлдүм",
+            "lets": "күлөлү",
+            "dont": "күлбө",
+            "please": "күлчү"
+          }
+        },
+        {
+          "id": "n-kuban",
+          "label": "кубануу",
+          "type": "verb",
+          "img": "Grinning face with big eyes",
+          "auto": "doing",
+          "stem": "кубан",
+          "kind": "activity",
+          "forms": {
+            "want": "кубангым келип жатат",
+            "doing": "кубанып жатам",
+            "did": "кубандым",
+            "lets": "кубаналы",
+            "dont": "кубанба",
+            "please": "кубанчы"
+          }
+        },
+        {
+          "id": "n-kapa-bol",
+          "label": "капа болуу",
+          "type": "verb",
+          "img": "Disappointed face",
+          "auto": "doing",
+          "stem": "капа бол",
+          "kind": "activity",
+          "forms": {
+            "want": "капа болгум келип жатат",
+            "doing": "капа болуп жатам",
+            "did": "капа болдум",
+            "lets": "капа бололу",
+            "dont": "капа болбо",
+            "please": "капа болчу"
+          }
+        },
+        {
+          "id": "n-achuulan",
+          "label": "ачуулануу",
+          "type": "verb",
+          "img": "Face with steam from nose",
+          "auto": "doing",
+          "stem": "ачуулан",
+          "kind": "activity",
+          "forms": {
+            "want": "ачуулангым келип жатат",
+            "doing": "ачууланып жатам",
+            "did": "ачууландым",
+            "lets": "ачууланалы",
+            "dont": "ачууланба",
+            "please": "ачууланчы"
+          }
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "label": "ооруп жатат",
+      "icon": "Face with head-bandage",
+      "cards": [
+        {
+          "id": "hurts-somewhere",
+          "label": "бир жерим ооруп жатат",
+          "type": "phrase",
+          "img": "Adhesive bandage",
+          "subject": "gen",
+          "owner": "бир жер",
+          "forms": {
+            "p2s": "бир жериң ооруп жатат",
+            "p3s": "бир жери ооруп жатат",
+            "p1p": "бир жерибиз ооруп жатат",
+            "p3p": "бир жери ооруп жатат"
+          }
+        },
+        {
+          "id": "head",
+          "label": "башым ооруп жатат",
+          "type": "phrase",
+          "img": "Face with head-bandage",
+          "subject": "gen",
+          "owner": "баш",
+          "forms": {
+            "p2s": "башың ооруп жатат",
+            "p3s": "башы ооруп жатат",
+            "p1p": "башыбыз ооруп жатат",
+            "p3p": "башы ооруп жатат"
+          }
+        },
+        {
+          "id": "tummy",
+          "label": "ичим ооруп жатат",
+          "type": "phrase",
+          "img": "Nauseated face",
+          "subject": "gen",
+          "owner": "ич",
+          "forms": {
+            "p2s": "ичиң ооруп жатат",
+            "p3s": "ичи ооруп жатат",
+            "p1p": "ичибиз ооруп жатат",
+            "p3p": "ичи ооруп жатат"
+          }
+        },
+        {
+          "id": "tooth",
+          "label": "тишим ооруп жатат",
+          "type": "phrase",
+          "img": "Tooth",
+          "subject": "gen",
+          "owner": "тиш",
+          "forms": {
+            "p2s": "тишиң ооруп жатат",
+            "p3s": "тиши ооруп жатат",
+            "p1p": "тишибиз ооруп жатат",
+            "p3p": "тиши ооруп жатат"
+          }
+        },
+        {
+          "id": "ear",
+          "label": "кулагым ооруп жатат",
+          "type": "phrase",
+          "img": "Ear",
+          "tone": true,
+          "subject": "gen",
+          "owner": "кулак",
+          "forms": {
+            "p2s": "кулагың ооруп жатат",
+            "p3s": "кулагы ооруп жатат",
+            "p1p": "кулагыбыз ооруп жатат",
+            "p3p": "кулагы ооруп жатат"
+          }
+        },
+        {
+          "id": "throat",
+          "label": "тамагым ооруп жатат",
+          "type": "phrase",
+          "img": "Face with medical mask",
+          "subject": "gen",
+          "owner": "тамак",
+          "forms": {
+            "p2s": "тамагың ооруп жатат",
+            "p3s": "тамагы ооруп жатат",
+            "p1p": "тамагыбыз ооруп жатат",
+            "p3p": "тамагы ооруп жатат"
+          }
+        },
+        {
+          "id": "hand",
+          "label": "колум ооруп жатат",
+          "type": "phrase",
+          "img": "Raised hand",
+          "tone": true,
+          "subject": "gen",
+          "owner": "кол",
+          "forms": {
+            "p2s": "колуң ооруп жатат",
+            "p3s": "колу ооруп жатат",
+            "p1p": "колубуз ооруп жатат",
+            "p3p": "колу ооруп жатат"
+          }
+        },
+        {
+          "id": "leg",
+          "label": "бутум ооруп жатат",
+          "type": "phrase",
+          "img": "Leg",
+          "tone": true,
+          "subject": "gen",
+          "owner": "бут",
+          "forms": {
+            "p2s": "бутуң ооруп жатат",
+            "p3s": "буту ооруп жатат",
+            "p1p": "бутубуз ооруп жатат",
+            "p3p": "буту ооруп жатат"
+          }
+        }
+      ]
+    },
+    {
+      "id": "play",
+      "label": "оюн",
+      "icon": "Soccer ball",
+      "cards": [
+        {
+          "id": "play-verb",
+          "label": "ойногум келип жатат",
+          "type": "verb",
+          "img": "Person cartwheeling",
+          "tone": true,
+          "takes": "play",
+          "base": "n-oyno",
+          "person": "com",
+          "forms": {
+            "p2s": "ойногуң келип жатат",
+            "p3s": "ойногусу келип жатат",
+            "p1p": "ойногубуз келип жатат",
+            "p3p": "ойногусу келип жатат"
+          }
+        },
+        {
+          "id": "watch",
+          "label": "көргүм келип жатат",
+          "type": "verb",
+          "img": "Eyes",
+          "takes": "watch",
+          "obj": "something",
+          "base": "n-kor",
+          "person": "acc",
+          "forms": {
+            "p2s": "көргүң келип жатат",
+            "p3s": "көргүсү келип жатат",
+            "p1p": "көргүбүз келип жатат",
+            "p3p": "көргүсү келип жатат"
+          }
+        },
+        {
+          "id": "n-oyno",
+          "label": "ойноо",
+          "type": "verb",
+          "img": "Person cartwheeling",
+          "tone": true,
+          "use": "play-verb",
+          "stem": "ойно",
+          "kind": "activity",
+          "forms": {
+            "want": "ойногум келип жатат",
+            "doing": "ойноп жатам",
+            "did": "ойнодум",
+            "lets": "ойнойлу",
+            "dont": "ойнобо",
+            "please": "ойночу"
+          }
+        },
+        {
+          "id": "n-kor",
+          "label": "көрүү",
+          "type": "verb",
+          "img": "Eyes",
+          "use": "watch",
+          "stem": "көр",
+          "kind": "activity",
+          "forms": {
+            "want": "көргүм келип жатат",
+            "doing": "көрүп жатам",
+            "did": "көрдүм",
+            "lets": "көрөлү",
+            "dont": "көрбө",
+            "please": "көрчү"
+          }
+        },
+        {
+          "id": "n-surot-tart",
+          "label": "сүрөт тартуу",
+          "type": "verb",
+          "img": "Artist palette",
+          "use": "draw",
+          "stem": "сүрөт тарт",
+          "kind": "activity",
+          "forms": {
+            "want": "сүрөт тарткым келип жатат",
+            "doing": "сүрөт тартып жатам",
+            "did": "сүрөт тарттым",
+            "lets": "сүрөт тарталы",
+            "dont": "сүрөт тартпа",
+            "please": "сүрөт тартчы"
+          }
+        },
+        {
+          "id": "game",
+          "label": "оюн",
+          "type": "noun",
+          "img": "Game die",
+          "kind": "game"
+        },
+        {
+          "id": "ball",
+          "label": "топ",
+          "type": "noun",
+          "img": "Soccer ball",
+          "kind": "ball"
+        },
+        {
+          "id": "toy",
+          "label": "оюнчук",
+          "type": "noun",
+          "img": "Teddy bear",
+          "say": "ойунчук",
+          "kind": "toy",
+          "forms": {
+            "acc": "оюнчукту"
+          }
+        },
+        {
+          "id": "cartoon",
+          "label": "мультфильм",
+          "type": "noun",
+          "img": "Television",
+          "kind": "screen"
+        },
+        {
+          "id": "draw",
+          "label": "сүрөт тарткым келип жатат",
+          "type": "verb",
+          "img": "Artist palette",
+          "base": "n-surot-tart",
+          "forms": {
+            "p2s": "сүрөт тарткың келип жатат",
+            "p3s": "сүрөт тарткысы келип жатат",
+            "p1p": "сүрөт тарткыбыз келип жатат",
+            "p3p": "сүрөт тарткысы келип жатат"
+          }
+        },
+        {
+          "id": "book",
+          "label": "китеп",
+          "type": "noun",
+          "img": "Books",
+          "kind": "book",
+          "forms": {
+            "acc": "китепти"
+          }
+        },
+        {
+          "id": "music",
+          "label": "музыка",
+          "type": "noun",
+          "img": "Musical note",
+          "kind": "music"
+        },
+        {
+          "id": "phone",
+          "label": "телефон",
+          "type": "noun",
+          "img": "Mobile phone",
+          "kind": "device"
+        },
+        {
+          "id": "bike",
+          "label": "велосипед",
+          "type": "noun",
+          "img": "Bicycle",
+          "kind": "bike"
+        },
+        {
+          "id": "car",
+          "label": "машина",
+          "type": "noun",
+          "img": "Automobile",
+          "kind": "car",
+          "forms": {
+            "dat": "машинага",
+            "acc": "машинаны"
+          }
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "label": "аракеттер",
+      "icon": "Person running",
+      "cards": [
+        {
+          "id": "run",
+          "label": "чуркагым келип жатат",
+          "type": "verb",
+          "img": "Person running",
+          "tone": true,
+          "base": "n-churka",
+          "person": "com",
+          "forms": {
+            "p2s": "чуркагың келип жатат",
+            "p3s": "чуркагысы келип жатат",
+            "p1p": "чуркагыбыз келип жатат",
+            "p3p": "чуркагысы келип жатат"
+          }
+        },
+        {
+          "id": "n-churka",
+          "label": "чуркоо",
+          "type": "verb",
+          "img": "Person running",
+          "tone": true,
+          "use": "run",
+          "stem": "чурка",
+          "kind": "activity",
+          "forms": {
+            "want": "чуркагым келип жатат",
+            "doing": "чуркап жатам",
+            "did": "чуркадым",
+            "lets": "чуркайлы",
+            "dont": "чуркаба",
+            "please": "чуркачы"
+          }
+        },
+        {
+          "id": "swim",
+          "label": "сүзгүм келип жатат",
+          "type": "verb",
+          "img": "Person swimming",
+          "tone": true,
+          "base": "n-suz",
+          "person": "com",
+          "forms": {
+            "p2s": "сүзгүң келип жатат",
+            "p3s": "сүзгүсү келип жатат",
+            "p1p": "сүзгүбүз келип жатат",
+            "p3p": "сүзгүсү келип жатат"
+          }
+        },
+        {
+          "id": "n-suz",
+          "label": "сүзүү",
+          "type": "verb",
+          "img": "Person swimming",
+          "tone": true,
+          "use": "swim",
+          "stem": "сүз",
+          "kind": "activity",
+          "forms": {
+            "want": "сүзгүм келип жатат",
+            "doing": "сүзүп жатам",
+            "did": "сүздүм",
+            "lets": "сүзөлү",
+            "dont": "сүзбө",
+            "please": "сүзчү"
+          }
+        },
+        {
+          "id": "dance",
+          "label": "бийлегим келип жатат",
+          "type": "verb",
+          "img": "Woman dancing",
+          "tone": true,
+          "base": "n-biyle",
+          "person": "com",
+          "forms": {
+            "p2s": "бийлегиң келип жатат",
+            "p3s": "бийлегиси келип жатат",
+            "p1p": "бийлегибиз келип жатат",
+            "p3p": "бийлегиси келип жатат"
+          }
+        },
+        {
+          "id": "n-biyle",
+          "label": "бийлөө",
+          "type": "verb",
+          "img": "Woman dancing",
+          "tone": true,
+          "use": "dance",
+          "stem": "бийле",
+          "kind": "activity",
+          "forms": {
+            "want": "бийлегим келип жатат",
+            "doing": "бийлеп жатам",
+            "did": "бийледим",
+            "lets": "бийлейли",
+            "dont": "бийлебе",
+            "please": "бийлечи"
+          }
+        },
+        {
+          "id": "sing",
+          "label": "ырдагым келип жатат",
+          "type": "verb",
+          "img": "Microphone",
+          "takes": "sing",
+          "base": "n-yrda",
+          "person": "com",
+          "forms": {
+            "p2s": "ырдагың келип жатат",
+            "p3s": "ырдагысы келип жатат",
+            "p1p": "ырдагыбыз келип жатат",
+            "p3p": "ырдагысы келип жатат"
+          }
+        },
+        {
+          "id": "n-yrda",
+          "label": "ырдоо",
+          "type": "verb",
+          "img": "Microphone",
+          "use": "sing",
+          "stem": "ырда",
+          "kind": "activity",
+          "forms": {
+            "want": "ырдагым келип жатат",
+            "doing": "ырдап жатам",
+            "did": "ырдадым",
+            "lets": "ырдайлы",
+            "dont": "ырдаба",
+            "please": "ырдачы"
+          }
+        },
+        {
+          "id": "read",
+          "label": "окугум келип жатат",
+          "type": "verb",
+          "img": "Open book",
+          "takes": "read",
+          "base": "n-oku",
+          "forms": {
+            "p2s": "окугуң келип жатат",
+            "p3s": "окугусу келип жатат",
+            "p1p": "окугубуз келип жатат",
+            "p3p": "окугусу келип жатат"
+          }
+        },
+        {
+          "id": "n-oku",
+          "label": "окуу",
+          "type": "verb",
+          "img": "Open book",
+          "use": "read",
+          "stem": "оку",
+          "kind": "activity",
+          "forms": {
+            "want": "окугум келип жатат",
+            "doing": "окуп жатам",
+            "did": "окудум",
+            "lets": "окуйлу",
+            "dont": "окуба",
+            "please": "окучу"
+          }
+        },
+        {
+          "id": "listen",
+          "label": "уккум келип жатат",
+          "type": "verb",
+          "img": "Headphone",
+          "takes": "listen",
+          "obj": "music",
+          "base": "n-uk",
+          "person": "acc",
+          "forms": {
+            "p2s": "уккуң келип жатат",
+            "p3s": "уккусу келип жатат",
+            "p1p": "уккубуз келип жатат",
+            "p3p": "уккусу келип жатат"
+          }
+        },
+        {
+          "id": "n-uk",
+          "label": "угуу",
+          "type": "verb",
+          "img": "Headphone",
+          "use": "listen",
+          "stem": "ук",
+          "kind": "activity",
+          "forms": {
+            "want": "уккум келип жатат",
+            "doing": "угуп жатам",
+            "did": "уктум",
+            "lets": "угалы",
+            "dont": "укпа",
+            "please": "укчу"
+          }
+        },
+        {
+          "id": "ride",
+          "label": "тепким келип жатат",
+          "type": "verb",
+          "img": "Person biking",
+          "tone": true,
+          "takes": "ride",
+          "obj": "bike",
+          "base": "n-tep",
+          "person": "com",
+          "forms": {
+            "p2s": "тепкиң келип жатат",
+            "p3s": "тепкиси келип жатат",
+            "p1p": "тепкибиз келип жатат",
+            "p3p": "тепкиси келип жатат"
+          }
+        },
+        {
+          "id": "n-tep",
+          "label": "тебүү",
+          "type": "verb",
+          "img": "Person biking",
+          "tone": true,
+          "use": "ride",
+          "stem": "теп",
+          "kind": "activity",
+          "forms": {
+            "want": "тепким келип жатат",
+            "doing": "тебип жатам",
+            "did": "тептим",
+            "lets": "тебели",
+            "dont": "теппе",
+            "please": "тепчи"
+          }
+        },
+        {
+          "id": "drive",
+          "label": "айдагым келип жатат",
+          "type": "verb",
+          "img": "Racing car",
+          "takes": "drive",
+          "obj": "car",
+          "base": "n-ayda",
+          "forms": {
+            "p2s": "айдагың келип жатат",
+            "p3s": "айдагысы келип жатат",
+            "p1p": "айдагыбыз келип жатат",
+            "p3p": "айдагысы келип жатат"
+          }
+        },
+        {
+          "id": "n-ayda",
+          "label": "айдоо",
+          "type": "verb",
+          "img": "Racing car",
+          "use": "drive",
+          "stem": "айда",
+          "kind": "activity",
+          "forms": {
+            "want": "айдагым келип жатат",
+            "doing": "айдап жатам",
+            "did": "айдадым",
+            "lets": "айдайлы",
+            "dont": "айдаба",
+            "please": "айдачы"
+          }
+        },
+        {
+          "id": "hug",
+          "label": "кучактагым келип жатат",
+          "type": "verb",
+          "img": "Hugging face",
+          "takes": "hug",
+          "base": "n-kuchakta",
+          "who": "you",
+          "person": "acc",
+          "forms": {
+            "p2s": "кучактагың келип жатат",
+            "p3s": "кучактагысы келип жатат",
+            "p1p": "кучактагыбыз келип жатат",
+            "p3p": "кучактагысы келип жатат"
+          }
+        },
+        {
+          "id": "n-kuchakta",
+          "label": "кучактоо",
+          "type": "verb",
+          "img": "Hugging face",
+          "use": "hug",
+          "stem": "кучакта",
+          "kind": "activity",
+          "forms": {
+            "want": "кучактагым келип жатат",
+            "doing": "кучактап жатам",
+            "did": "кучактадым",
+            "lets": "кучактайлы",
+            "dont": "кучактаба",
+            "please": "кучактачы"
+          }
+        },
+        {
+          "id": "rest",
+          "label": "эс алгым келип жатат",
+          "type": "verb",
+          "img": "Person in lotus position",
+          "tone": true,
+          "base": "n-es-al",
+          "forms": {
+            "p2s": "эс алгың келип жатат",
+            "p3s": "эс алгысы келип жатат",
+            "p1p": "эс алгыбыз келип жатат",
+            "p3p": "эс алгысы келип жатат"
+          }
+        },
+        {
+          "id": "n-es-al",
+          "label": "эс алуу",
+          "type": "verb",
+          "img": "Person in lotus position",
+          "tone": true,
+          "use": "rest",
+          "stem": "эс ал",
+          "kind": "activity",
+          "forms": {
+            "want": "эс алгым келип жатат",
+            "doing": "эс алып жатам",
+            "did": "эс алдым",
+            "lets": "эс алалы",
+            "dont": "эс алба",
+            "please": "эс алчы"
+          }
+        },
+        {
+          "id": "n-sekir",
+          "label": "секирүү",
+          "type": "verb",
+          "img": "Kangaroo",
+          "auto": "want",
+          "stem": "секир",
+          "kind": "activity",
+          "forms": {
+            "want": "секиргим келип жатат",
+            "doing": "секирип жатам",
+            "did": "секирдим",
+            "lets": "секирели",
+            "dont": "секирбе",
+            "please": "секирчи"
+          }
+        },
+        {
+          "id": "n-bas",
+          "label": "басуу",
+          "type": "verb",
+          "img": "Footprints",
+          "auto": "want",
+          "stem": "бас",
+          "kind": "activity",
+          "forms": {
+            "want": "баскым келип жатат",
+            "doing": "басып жатам",
+            "did": "бастым",
+            "lets": "басалы",
+            "dont": "баспа",
+            "please": "басчы"
+          }
+        },
+        {
+          "id": "n-otur",
+          "label": "отуруу",
+          "type": "verb",
+          "img": "Chair",
+          "auto": "want",
+          "stem": "отур",
+          "kind": "activity",
+          "forms": {
+            "want": "отургум келип жатат",
+            "doing": "отуруп жатам",
+            "did": "отурдум",
+            "lets": "отуралы",
+            "dont": "отурба",
+            "please": "отурчу"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "label": "кийим",
+      "icon": "T-shirt",
+      "cards": [
+        {
+          "id": "wear",
+          "label": "кийгим келип жатат",
+          "type": "verb",
+          "img": "Gloves",
+          "takes": "wear",
+          "bare": "get-dressed",
+          "base": "n-kiy",
+          "forms": {
+            "p2s": "кийгиң келип жатат",
+            "p3s": "кийгиси келип жатат",
+            "p1p": "кийгибиз келип жатат",
+            "p3p": "кийгиси келип жатат"
+          }
+        },
+        {
+          "id": "get-dressed",
+          "label": "кийингим келип жатат",
+          "type": "verb",
+          "img": "Person standing",
+          "tone": true,
+          "base": "n-kiyin",
+          "forms": {
+            "p2s": "кийингиң келип жатат",
+            "p3s": "кийингиси келип жатат",
+            "p1p": "кийингибиз келип жатат",
+            "p3p": "кийингиси келип жатат"
+          }
+        },
+        {
+          "id": "n-kiy",
+          "label": "кийүү",
+          "type": "verb",
+          "img": "Gloves",
+          "use": "wear",
+          "stem": "кий",
+          "kind": "activity",
+          "forms": {
+            "want": "кийгим келип жатат",
+            "doing": "кийип жатам",
+            "did": "кийдим",
+            "lets": "кийели",
+            "dont": "кийбе",
+            "please": "кийчи"
+          }
+        },
+        {
+          "id": "n-kiyin",
+          "label": "кийинүү",
+          "type": "verb",
+          "img": "Person standing",
+          "tone": true,
+          "use": "get-dressed",
+          "stem": "кийин",
+          "kind": "activity",
+          "forms": {
+            "want": "кийингим келип жатат",
+            "doing": "кийинип жатам",
+            "did": "кийиндим",
+            "lets": "кийинели",
+            "dont": "кийинбе",
+            "please": "кийинчи"
+          }
+        },
+        {
+          "id": "clothes-word",
+          "label": "кийим",
+          "type": "noun",
+          "img": "Womans clothes",
+          "kind": "clothes"
+        },
+        {
+          "id": "tshirt",
+          "label": "футболка",
+          "type": "noun",
+          "img": "T-shirt",
+          "kind": "clothes"
+        },
+        {
+          "id": "dress",
+          "label": "көйнөк",
+          "type": "noun",
+          "img": "Dress",
+          "kind": "clothes"
+        },
+        {
+          "id": "pants",
+          "label": "шым",
+          "type": "noun",
+          "img": "Jeans",
+          "kind": "clothes"
+        },
+        {
+          "id": "coat",
+          "label": "куртка",
+          "type": "noun",
+          "img": "Coat",
+          "kind": "clothes"
+        },
+        {
+          "id": "hat",
+          "label": "шапке",
+          "type": "noun",
+          "img": "Billed cap",
+          "kind": "clothes"
+        },
+        {
+          "id": "socks",
+          "label": "байпак",
+          "type": "noun",
+          "img": "Socks",
+          "kind": "clothes"
+        },
+        {
+          "id": "shoes",
+          "label": "бут кийим",
+          "type": "noun",
+          "img": "Running shoe",
+          "kind": "clothes"
+        }
+      ]
+    },
+    {
+      "id": "animals",
+      "label": "жаныбарлар",
+      "icon": "Dog face",
+      "cards": [
+        {
+          "id": "animal",
+          "label": "жаныбар",
+          "type": "noun",
+          "img": "Paw prints",
+          "kind": "animal",
+          "forms": {
+            "acc": "жаныбарды"
+          }
+        },
+        {
+          "id": "cat",
+          "label": "мышык",
+          "type": "noun",
+          "img": "Cat",
+          "kind": "animal",
+          "forms": {
+            "acc": "мышыкты"
+          }
+        },
+        {
+          "id": "dog",
+          "label": "ит",
+          "type": "noun",
+          "img": "Dog",
+          "kind": "animal",
+          "forms": {
+            "acc": "итти"
+          }
+        },
+        {
+          "id": "horse",
+          "label": "ат",
+          "type": "noun",
+          "img": "Horse",
+          "kind": "horse",
+          "forms": {
+            "acc": "атты"
+          }
+        },
+        {
+          "id": "cow",
+          "label": "уй",
+          "type": "noun",
+          "img": "Cow",
+          "kind": "animal",
+          "forms": {
+            "acc": "уйду"
+          }
+        },
+        {
+          "id": "sheep",
+          "label": "кой",
+          "type": "noun",
+          "img": "Ewe",
+          "kind": "animal",
+          "forms": {
+            "acc": "койду"
+          }
+        },
+        {
+          "id": "chicken",
+          "label": "тоок",
+          "type": "noun",
+          "img": "Chicken",
+          "consume": "eat",
+          "kind": "animal",
+          "forms": {
+            "acc": "тоокту"
+          }
+        },
+        {
+          "id": "fish",
+          "label": "балык",
+          "type": "noun",
+          "img": "Fish",
+          "consume": "eat",
+          "kind": "animal",
+          "forms": {
+            "acc": "балыкты"
+          }
+        },
+        {
+          "id": "bird",
+          "label": "куш",
+          "type": "noun",
+          "img": "Bird",
+          "kind": "animal",
+          "forms": {
+            "acc": "кушту"
+          }
+        },
+        {
+          "id": "rabbit",
+          "label": "коён",
+          "type": "noun",
+          "img": "Rabbit",
+          "kind": "animal",
+          "forms": {
+            "acc": "коёнду"
+          }
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "label": "үй-бүлө",
+      "icon": "Woman",
+      "cards": [
+        {
+          "id": "family",
+          "label": "үй-бүлө",
+          "type": "person",
+          "img": "Houses",
+          "forms": {
+            "poss": "үй-бүлөм",
+            "possDat": "үй-бүлөмө",
+            "possAcc": "үй-бүлөмдү",
+            "possCom": "үй-бүлөм менен"
+          }
+        },
+        {
+          "id": "mom",
+          "label": "апа",
+          "type": "person",
+          "img": "Woman",
+          "tone": true,
+          "forms": {
+            "poss": "апам",
+            "possDat": "апама",
+            "possAcc": "апамды",
+            "possCom": "апам менен"
+          }
+        },
+        {
+          "id": "dad",
+          "label": "ата",
+          "type": "person",
+          "img": "Man",
+          "tone": true,
+          "forms": {
+            "poss": "атам",
+            "possDat": "атама",
+            "possAcc": "атамды",
+            "possCom": "атам менен"
+          }
+        },
+        {
+          "id": "grandma",
+          "label": "чоң апа",
+          "type": "person",
+          "img": "Old woman",
+          "tone": true,
+          "forms": {
+            "poss": "чоң апам",
+            "possDat": "чоң апама",
+            "possAcc": "чоң апамды",
+            "possCom": "чоң апам менен"
+          }
+        },
+        {
+          "id": "grandpa",
+          "label": "чоң ата",
+          "type": "person",
+          "img": "Old man",
+          "tone": true,
+          "forms": {
+            "poss": "чоң атам",
+            "possDat": "чоң атама",
+            "possAcc": "чоң атамды",
+            "possCom": "чоң атам менен"
+          }
+        },
+        {
+          "id": "brother",
+          "label": "байке",
+          "type": "person",
+          "img": "Boy",
+          "tone": true,
+          "forms": {
+            "poss": "байкем",
+            "possDat": "байкеме",
+            "possAcc": "байкемди",
+            "possCom": "байкем менен"
+          }
+        },
+        {
+          "id": "sister",
+          "label": "эже",
+          "type": "person",
+          "img": "Girl",
+          "tone": true,
+          "forms": {
+            "poss": "эжем",
+            "possDat": "эжеме",
+            "possAcc": "эжемди",
+            "possCom": "эжем менен"
+          }
+        },
+        {
+          "id": "baby",
+          "label": "бөбөк",
+          "type": "person",
+          "img": "Baby",
+          "tone": true,
+          "forms": {
+            "poss": "бөбөгүм",
+            "possDat": "бөбөгүмө",
+            "possAcc": "бөбөгүмдү",
+            "possCom": "бөбөгүм менен"
+          }
+        }
+      ]
+    },
+    {
+      "id": "others",
+      "label": "адамдар",
+      "icon": "Handshake",
+      "cards": [
+        {
+          "id": "teacher",
+          "label": "мугалим",
+          "type": "person",
+          "img": "Teacher",
+          "tone": true,
+          "forms": {
+            "poss": "мугалимим",
+            "possDat": "мугалимиме",
+            "possAcc": "мугалимимди",
+            "possCom": "мугалимим менен"
+          }
+        },
+        {
+          "id": "friend",
+          "label": "дос",
+          "type": "person",
+          "img": "People hugging",
+          "forms": {
+            "poss": "досум",
+            "possDat": "досума",
+            "possAcc": "досумду",
+            "possCom": "досум менен"
+          }
+        },
+        {
+          "id": "doctor",
+          "label": "дарыгер",
+          "type": "person",
+          "img": "Health worker",
+          "tone": true,
+          "forms": {
+            "poss": "дарыгерим",
+            "possDat": "дарыгериме",
+            "possAcc": "дарыгеримди",
+            "possCom": "дарыгерим менен"
+          }
+        },
+        {
+          "id": "bubusara",
+          "label": "Бүбүсара Бейшеналиева",
+          "type": "person",
+          "img": "Ballet shoes",
+          "forms": {
+            "poss": "Бүбүсара Бейшеналиева",
+            "possDat": "Бүбүсара Бейшеналиевага",
+            "possAcc": "Бүбүсара Бейшеналиеваны",
+            "possCom": "Бүбүсара Бейшеналиева менен"
+          }
+        },
+        {
+          "id": "aitmatov",
+          "label": "Чыңгыз Айтматов",
+          "type": "person",
+          "img": "Fountain pen",
+          "forms": {
+            "poss": "Чыңгыз Айтматов",
+            "possDat": "Чыңгыз Айтматовго",
+            "possAcc": "Чыңгыз Айтматовду",
+            "possCom": "Чыңгыз Айтматов менен"
+          }
+        },
+        {
+          "id": "begish",
+          "label": "Бегиш",
+          "type": "person",
+          "img": "Microphone",
+          "forms": {
+            "poss": "Бегиш",
+            "possDat": "Бегишке",
+            "possAcc": "Бегишти",
+            "possCom": "Бегиш менен"
+          }
+        },
+        {
+          "id": "bakr",
+          "label": "Бакр",
+          "type": "person",
+          "img": "Guitar",
+          "forms": {
+            "poss": "Бакр",
+            "possDat": "Бакрга",
+            "possAcc": "Бакрды",
+            "possCom": "Бакр менен"
+          }
+        },
+        {
+          "id": "ulukmanapo",
+          "label": "Улукманапо",
+          "type": "person",
+          "img": "Studio microphone",
+          "forms": {
+            "poss": "Улукманапо",
+            "possDat": "Улукманапого",
+            "possAcc": "Улукманапону",
+            "possCom": "Улукманапо менен"
+          }
+        },
+        {
+          "id": "mrbeast",
+          "label": "Мистер Бист",
+          "type": "person",
+          "img": "Video camera",
+          "forms": {
+            "poss": "Мистер Бист",
+            "possDat": "Мистер Бистке",
+            "possAcc": "Мистер Бистти",
+            "possCom": "Мистер Бист менен"
+          }
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "label": "жерлер",
+      "icon": "House",
+      "cards": [
+        {
+          "id": "go",
+          "label": "баргым келип жатат",
+          "type": "verb",
+          "img": "Person walking",
+          "tone": true,
+          "frame": "place",
+          "takes": "go",
+          "base": "n-bar",
+          "person": "dat",
+          "forms": {
+            "p2s": "баргың келип жатат",
+            "p3s": "баргысы келип жатат",
+            "p1p": "баргыбыз келип жатат",
+            "p3p": "баргысы келип жатат"
+          }
+        },
+        {
+          "id": "n-bar",
+          "label": "баруу",
+          "type": "verb",
+          "img": "Person walking",
+          "tone": true,
+          "use": "go",
+          "stem": "бар",
+          "kind": "activity",
+          "forms": {
+            "want": "баргым келип жатат",
+            "doing": "барып жатам",
+            "did": "бардым",
+            "lets": "баралы",
+            "dont": "барба",
+            "please": "барчы"
+          }
+        },
+        {
+          "id": "somewhere",
+          "label": "бир жерге",
+          "type": "noun",
+          "img": "Compass",
+          "role": "place",
+          "forms": {
+            "loc": "бир жерде"
+          }
+        },
+        {
+          "id": "home",
+          "label": "үйгө",
+          "type": "noun",
+          "img": "House",
+          "role": "place",
+          "forms": {
+            "loc": "үйдө"
+          }
+        },
+        {
+          "id": "outside",
+          "label": "сыртка",
+          "type": "noun",
+          "img": "Sun behind cloud",
+          "role": "place",
+          "forms": {
+            "loc": "сыртта"
+          }
+        },
+        {
+          "id": "school",
+          "label": "мектепке",
+          "type": "noun",
+          "img": "School",
+          "role": "place",
+          "forms": {
+            "loc": "мектепте"
+          }
+        },
+        {
+          "id": "park",
+          "label": "паркка",
+          "type": "noun",
+          "img": "Deciduous tree",
+          "role": "place",
+          "forms": {
+            "loc": "паркта"
+          }
+        },
+        {
+          "id": "playground",
+          "label": "оюн аянтчасына",
+          "type": "noun",
+          "img": "Playground slide",
+          "say": "ойун айантчасына",
+          "role": "place",
+          "forms": {
+            "loc": "оюн аянтчасында"
+          }
+        },
+        {
+          "id": "shop",
+          "label": "дүкөнгө",
+          "type": "noun",
+          "img": "Shopping cart",
+          "role": "place",
+          "forms": {
+            "loc": "дүкөндө"
+          }
+        },
+        {
+          "id": "hospital",
+          "label": "ооруканага",
+          "type": "noun",
+          "img": "Hospital",
+          "role": "place",
+          "forms": {
+            "loc": "ооруканада"
+          }
+        },
+        {
+          "id": "sleep",
+          "label": "уктагым келип жатат",
+          "type": "verb",
+          "img": "Bed",
+          "base": "n-ukta",
+          "forms": {
+            "p2s": "уктагың келип жатат",
+            "p3s": "уктагысы келип жатат",
+            "p1p": "уктагыбыз келип жатат",
+            "p3p": "уктагысы келип жатат"
+          }
+        },
+        {
+          "id": "n-ukta",
+          "label": "уктоо",
+          "type": "verb",
+          "img": "Bed",
+          "use": "sleep",
+          "stem": "укта",
+          "kind": "activity",
+          "forms": {
+            "want": "уктагым келип жатат",
+            "doing": "уктап жатам",
+            "did": "уктадым",
+            "lets": "уктайлы",
+            "dont": "уктаба",
+            "please": "уктачы"
+          }
+        }
+      ]
+    },
+    {
+      "id": "muchos",
+      "label": "мүчөлөр",
+      "icon": "Puzzle piece",
+      "cards": [
+        {
+          "id": "sfx-dat",
+          "label": "-га",
+          "type": "describe",
+          "say": "га",
+          "role": "suffix",
+          "suffix": "dat"
+        },
+        {
+          "id": "sfx-loc",
+          "label": "-да",
+          "type": "describe",
+          "say": "да",
+          "role": "suffix",
+          "suffix": "loc"
+        },
+        {
+          "id": "sfx-abl",
+          "label": "-дан",
+          "type": "describe",
+          "say": "дан",
+          "role": "suffix",
+          "suffix": "abl"
+        },
+        {
+          "id": "sfx-acc",
+          "label": "-ны",
+          "type": "describe",
+          "say": "ны",
+          "role": "suffix",
+          "suffix": "acc"
+        },
+        {
+          "id": "sfx-gen",
+          "label": "-нын",
+          "type": "describe",
+          "say": "нын",
+          "role": "suffix",
+          "suffix": "gen"
+        },
+        {
+          "id": "sfx-pl",
+          "label": "-лар",
+          "type": "describe",
+          "say": "лар",
+          "role": "suffix",
+          "suffix": "pl"
+        },
+        {
+          "id": "sfx-my",
+          "label": "-м",
+          "type": "describe",
+          "say": "м",
+          "role": "suffix",
+          "suffix": "my"
+        },
+        {
+          "id": "sfx-your",
+          "label": "-ң",
+          "type": "describe",
+          "say": "ң",
+          "role": "suffix",
+          "suffix": "your"
+        },
+        {
+          "id": "sfx-like",
+          "label": "-дай",
+          "type": "describe",
+          "say": "дай",
+          "role": "suffix",
+          "suffix": "like"
+        },
+        {
+          "id": "sfx-without",
+          "label": "-сыз",
+          "type": "describe",
+          "say": "сыз",
+          "role": "suffix",
+          "suffix": "without"
+        },
+        {
+          "id": "sfx-having",
+          "label": "-луу",
+          "type": "describe",
+          "say": "луу",
+          "role": "suffix",
+          "suffix": "having"
+        },
+        {
+          "id": "sfx-q",
+          "label": "-бы",
+          "type": "social",
+          "say": "бы",
+          "role": "suffix",
+          "suffix": "q"
+        },
+        {
+          "id": "sfx-please",
+          "label": "-чы",
+          "type": "social",
+          "say": "чы",
+          "role": "suffix",
+          "suffix": "please"
+        },
+        {
+          "id": "sfx-want",
+          "label": "-гым келип жатат",
+          "type": "verb",
+          "say": "гым келип жатат",
+          "role": "suffix",
+          "suffix": "want"
+        },
+        {
+          "id": "sfx-doing",
+          "label": "-ып жатам",
+          "type": "verb",
+          "say": "ып жатам",
+          "role": "suffix",
+          "suffix": "doing"
+        },
+        {
+          "id": "sfx-did",
+          "label": "-дым",
+          "type": "verb",
+          "say": "дым",
+          "role": "suffix",
+          "suffix": "did"
+        },
+        {
+          "id": "sfx-lets",
+          "label": "-алы",
+          "type": "verb",
+          "say": "алы",
+          "role": "suffix",
+          "suffix": "lets"
+        },
+        {
+          "id": "sfx-dont",
+          "label": "-ба",
+          "type": "verb",
+          "say": "ба",
+          "role": "suffix",
+          "suffix": "dont"
+        }
+      ]
+    }
+  ]
+}
